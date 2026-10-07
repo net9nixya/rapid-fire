@@ -4,8 +4,8 @@ local RunService        = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
 getgenv().config = {
     enable = true,
-    delay  = 0.03,
-    minCooldown = 0.02,
+    delay  = 0,
+    minCooldown = 0,
 }
 
 getgenv().is_firing = false
